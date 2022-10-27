@@ -1,6 +1,6 @@
 <?php 
 if (!$_GET['Gpid']) {
-    $_GET['Gpid'] = ''; //เย้เย้
+    $_GET['Gpid'] = '';
  } elseif ($_GET['Gpid'] != null) {
     foreach ($_GET as $key => $value) {
        $_GET[$key] = addslashes(strip_tags(trim($value)));
